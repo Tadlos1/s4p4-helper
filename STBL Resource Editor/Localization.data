@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Localization>
+  <Settings>
+    <LastLanguage Value="English" />
+    <UseHighBit Value="true" />
+    <WarnOnLengthError Value="true" />
+    <UITheme>
+      <ButtonBackgroundColor Value="buttonface" />
+      <ButtonFontColor Value="buttontext" />
+      <ControlsBackgroundColor Value="White" />
+      <ControlsHighlightBackgroundColor Value="highlight" />
+      <ControlsHighlightFontColor Value="highlighttext" />
+      <FormBackgroundColor Value="buttonface" />
+      <FormFontColor Value="windowtext" />
+      <GridBorderColor Value="buttonshadow" />
+      <MenuBackground Value="buttonface" />
+    </UITheme>
+  </Settings>
+  <English>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP STBL Editor" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="Find By Instance ID" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="Find By Text String" />
+    <LocalizeText TextKey="MenuFile" TextValue="File" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="Open" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="Open From Package" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="Save" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="Save As" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="Import XML" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="Export to XML" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="Create Difference XML" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="Close" />
+    <LocalizeText TextKey="MenuForum" TextValue="Tools" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="Convert Between XML and Table Formats" />
+    <LocalizeText TextKey="MenuOptions" TextValue="Options" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="Set Language" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="Insert Row" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="Delete Row" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="Undelete Row" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Index" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="Instance ID" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="Text String" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="Export Complete" />
+    <LocalizeText TextKey="FilterXml" TextValue="XML Files|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="Export to XML" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="Import from XML" />
+    <LocalizeText TextKey="FilterStbl" TextValue="STBL Files|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="Open STBL File" />
+    <LocalizeText TextKey="MessageStblError" TextValue="Selected file is not a valid STBL file" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="Selected file is not a valid Package file" />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="Selected file is not a Sims 4 STBL file" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="Selected file is not a Sims 4 Package file" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="File Read Error" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="No Data was imported due to errors" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="No Data was found to import" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="{0} text strings were imported but there were {1} errors in the XML file" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="{0} text strings were imported" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="No Data Found in {0} for Comparison" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="{0} Records Updated||{1} Records Inserted||{2} Records Deleted" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="No Data To Convert in XML file" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="No Data To Convert in Text file" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="Choose STBL File For Comparison" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="XML File For Results" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="No STBL File Selected" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="No Xml File Selected" />
+    <LocalizeText TextKey="FilterText" TextValue="Text Files|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="Choose Text File Containing Table data" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="Choose XML File For Converted Results" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="Choose Text File To Save Table Results" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="Choose XML File With Data To Be Converted" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="Unable to convert without the required XML and Text Files selected" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="Conversion Complete" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="Instance ID is a required field" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="Text String is a required field" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="Invalid Instance ID specified" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="A longer Text String will result in a more unique Instance number" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="Language:" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="OK" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="Cancel" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="This process will compare a selected STBL file against the current data loaded on the main view and produce an XML file containing the differences." />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="STBL For Comparison:" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue="XML To Save Results:" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="Convert an XML file to a format used by forums for displaying tables, or vise-versa." />
+    <LocalizeText TextKey="LabelForumExample" TextValue="Example Table format:" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="Convert from XML to Table" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="Convert from Table to XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="Table To Convert:" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="XML To Convert:" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="Table To Save Results:" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="Convert" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="Generate" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="STBL Instance ID:" />
+    <LocalizeText TextKey="StblListCaption" TextValue="STBL List" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="Language" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Package Files|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="Open Package File" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="No STBL records exist in the selected package!" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Batch Apply Difference XML" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Batch Apply Differences to STBL Files" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="Using a difference XML, apply changes to all STBL files in a specified folder." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="Difference XML:" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="STBL Files Location:" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Batch Change" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="Select the XML file with the STBL difference definitions" />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="A difference XML file and a folder the STBL files are located within must be selected before doing a batch change!" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="{0} STBL Files were merged with the difference XML!" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="Use High-bit Group" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Export To All Languages" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="The current translations have been exported to STBL files for every language" />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Unknown Language Index used in STBL file: {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Some resource names may not be displayed.\n\nError reading _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="FNV Generation" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Enter a String to Generate FNV Hash from (Something greater than 20 characters works the best):" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="Find the next matching string" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="Find the previous matching string" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="There were mismatched sizes between the size of the STBL entries and the total STBL size expected.  The expected size was {0} but the actual size was {1}.{2}{2}This is just a warning!  Sims 4 will most likely not have problems from this issue." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="STBL Entry Size Error" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Warn on Size Errors" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+    <LocalizeText TextKey="TextInstanceIDRequiredError" TextValue="An InstanceID is required!" />
+  </English>
+  <Chinese>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP STBL编辑器" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="按Instance ID查找" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="按文本字串查找" />
+    <LocalizeText TextKey="MenuFile" TextValue="文件" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="打开" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="从Package文件打开" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="保存" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="另存为" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="从XML文件导入" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="导出为XML文件" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="创建内容差异XML文件" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="关闭" />
+    <LocalizeText TextKey="MenuForum" TextValue="论坛代码工具" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="在XML和表格之间转换格式" />
+    <LocalizeText TextKey="MenuOptions" TextValue="选项" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="设定语言" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="插入行列" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="删除行列" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="撤销删除行列" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Index" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="Instance ID" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="文本字串" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="导出完毕" />
+    <LocalizeText TextKey="FilterXml" TextValue="XML文件|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="导出为XML文件" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="从XML文件导入" />
+    <LocalizeText TextKey="FilterStbl" TextValue="STBL文件|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="打开STBL文件" />
+    <LocalizeText TextKey="MessageStblError" TextValue="所选文件并非有效STBL文件" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="所选文件并非有效Package文件" />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="所选文件并非SIMS4格式的STBL文件" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="所选文件并非SIMS4格式的Package文件" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="读取文件错误" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="发生错误导入数据失败" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="没有数据可以导入" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="已导入{0}条文本字串但XML文件中有{1}处错误" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="已导入{0}条文本字串" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="比较差异时没有在{0}中发现数据" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="更新{0}条记录||插入{1}条记录||删除{2}条记录" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="XML文件中没有数据可以转换" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="TXT文件中没有数据可以转换" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="选择STBL文件进行差异比较" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="将结果保存为XML文件" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="没有选择STBL文件" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="没有选择XML文件" />
+    <LocalizeText TextKey="FilterText" TextValue="TXT文件|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="转换TXT文件内的表格数据" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="将转换结果保存为XML文件" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="将表格结果保存为TXT文件" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="转换XML文件内的数据" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="没有选择需要转换的XML文件和TXT文件" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="转换完毕" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="缺少Instance ID" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="缺少文本字串" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="指定的Instance ID无效" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="较长的文本字串可以得到更独一的Instance数字" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="语言：" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="确定" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="取消" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="比较所选STBL文件与当前主视图载入数据的差异，并将结果生成为XML文件。" />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="比较STBL文件的差异：" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue="将结果保存为XML文件：" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="将XML文件转换为论坛表格的代码格式，亦可反向转换。" />
+    <LocalizeText TextKey="LabelForumExample" TextValue="表格格式示例：" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="将XML转换为表格" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="将表格转换为XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="选择要转换的表格：" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="选择要转换的XML：" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="将结果保存为表格：" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="转换" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="通用" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="STBL Instance ID：" />
+    <LocalizeText TextKey="StblListCaption" TextValue="STBL列表" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="语言" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Package文件|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="打开Package文件" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="No STBL records exist in the selected package!" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Batch Apply Difference XML" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Batch Apply Differences to STBL Files" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="Using a difference XML, apply changes to all STBL files in a specified folder." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="Difference XML:" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="STBL Files Location:" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Batch Change" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="Select the XML file with the STBL difference definitions" />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="A difference XML file and a folder the STBL files are located within must be selected before doing a batch change!" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="{0} STBL Files were merged with the difference XML!" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="Use High-bit Group" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Export To All Languages" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="The current translations have been exported to STBL files for every language" />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Unknown Language Index used in STBL file: {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Some resource names may not be displayed.\n\nError reading _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="FNV Generation" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Enter a String to Generate FNV Hash from (Something greater than 20 characters works the best):" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="Find the next matching string" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="Find the previous matching string" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="There were mismatched sizes between the size of the STBL entries and the total STBL size expected.  The expected size was {0} but the actual size was {1}.{2}{2}This is just a warning!  Sims 4 will most likely not have problems from this issue." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="STBL Entry Size Error" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Warn on Size Errors" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+  </Chinese>
+  <German>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP STBL Editor" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="Suche nach Instanz ID" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="Suche nach Zeichenfolge" />
+    <LocalizeText TextKey="MenuFile" TextValue="Datei" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="Öffnen" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="Package Datei öffnen" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="Speichern" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="Speichern als" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="Import XML" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="Export als XML" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="Differenz XML erstellen" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="Schließen" />
+    <LocalizeText TextKey="MenuForum" TextValue="Tools" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="Zwischen XML und Tabellenformaten konvertieren" />
+    <LocalizeText TextKey="MenuOptions" TextValue="Optionen" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="Sprache festlegen" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="Reihe einfügen" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="Reihe löschen" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="Reihe wiederherstellen" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Index" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="Instanz ID" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="Zeichenfolge" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="Export komplett" />
+    <LocalizeText TextKey="FilterXml" TextValue="XML Dateien|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="Export als XML" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="Import von XML" />
+    <LocalizeText TextKey="FilterStbl" TextValue="STBL Dateien|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="STBL Datei öffnen" />
+    <LocalizeText TextKey="MessageStblError" TextValue="Gewählte Datei ist keine gültige STBL Datei" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="Gewählte Datei ist keine gültige Package Datei" />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="Gewählte Datei ist keine Sims 4 STBL Datei" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="Gewählte Datei ist keine Sims 4 Package Datei" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="Dateilesefehler" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="Aufgrund von Fehlern wurden keine Daten importiert" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="Keine Daten für Import gefunden" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="{0} Zeichenfolgen wurden importiert aber es gab {1} Fehler in der XML Datei" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="{0} Zeichenfolgen wurden importiert" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="Keine Daten in {0} zum Vergleichen gefunden" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="{0} Einträge aktualisiert||{1} Einträge eingefügt||{2} Einträge gelöscht" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="Keine Daten zum Konvertieren in XML Datei" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="Keine Daten zum Konvertieren in Textdatei" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="STBL Datei zum Vergleichen wählen" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="XML Datei für Ergebnisse" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="Keine STBL Datei gewählt" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="Keine XML Datei gewählt" />
+    <LocalizeText TextKey="FilterText" TextValue="Textdateien|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="Textdatei wählen, die Tabellendaten enthält" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="XML Datei für konvertierte Ergebnisse wählen" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="Textdatei zum Speichern der Tabellenergebnisse wählen" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="XML Datei mit zu konvertierenden Daten wählen" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="Kann ohne Wahl der erforderlichen XML und Textdateien nicht konvertieren" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="Konvertierung komplett" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="Instanz ID ist ein erforderliches Feld" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="Zeichenfolge ist ein erforderliches Feld" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="Ungültige Instanz ID spezifiziert" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="Eine längere Zeichenfolge führt zu einer eindeutigeren Instanznummer" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="Sprache:" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="OK" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="Abbruch" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="Dieser Prozess wird eine gewählte STBL Datei mit den aktuell in der Hauptansicht geladenen Daten vergleichen und eine XML Datei erzeugen, die die Unterschiede enthält." />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="STBL zum Vergleichen:" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue="XML der Ergebnisse:" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="Konvertiert eine XML Datei in ein Format, das in Foren zum Anzeigen von Tabellen verwendet wird oder umgekehrt." />
+    <LocalizeText TextKey="LabelForumExample" TextValue="Beispiel Tabellenformat:" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="XML zu Tabelle" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="Tabelle zu XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="Tabelle:" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="XML:" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="Tabelle der Ergebnisse:" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="Konvertieren" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="Generieren" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="STBL Instanz ID:" />
+    <LocalizeText TextKey="StblListCaption" TextValue="STBL Liste" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="Sprache" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Package Dateien|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="Package Datei öffnen" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="Es gibt keine STBL Datensätze in der gewählten Package Datei!" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Stapelverarbeitung Differenz XML" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Stapelverarbeitung der Differenzen auf STBL Dateien" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="Eine Differenz XML verwenden, um Änderungen auf alle STBL Dateien in einem spezifizierten Ordner anzuwenden." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="Differenz XML:" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="Speicherort STBL Dateien:" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Stapelverarbeitung der Änderung" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="XML Datei mit den STBL Differenzen wählen" />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="Eine Differenz XML und ein Ordner, der die STBL Dateien enthält, müssen vor der Stapelverarbeitung gewählt sein!" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="{0} STBL Dateien wurden mit der Differenz XML verschmolzen!" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="High-bit Gruppe verwenden" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Export zu allen Sprachen" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="Die aktuellen Übersetzungen wurden als STBL Dateien für jede Sprache exportiert." />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Unbekannter Sprachen Index verwendet in STBL Datei: {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Einige Ressourcennamen können nicht angezeigt werden.\n\nFehler beim Lesen _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="FNV Generation" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Zeichenfolge zum Generieren von FNV Hash eingeben (Etwas mit mehr als 20 Zeichen funktioniert am besten):" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="Nächste passende Zeichenfolge finden" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="Vorherige passende Zeichenfolge finden" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="Es gab unterschiedliche Größen zwischen der Größe der STBL Eingaben und der zu erwarteten STBL Gesamtgröße.  Die erwartete Größe war {0} aber die aktuelle Größe ist {1}.{2}{2}Dies ist nur eine Warnung!  Sims 4 wird dadurch höchstwahrscheinlich keine Probleme haben." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="STBL Eingaben Größenfehler" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Bei Größenfehlern warnen" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+  </German>
+  <Spanish>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP STBL Editor" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="Buscar por ID de Instancia" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="Buscar por Cadena de Texto" />
+    <LocalizeText TextKey="MenuFile" TextValue="Archivo" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="Abrir" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="Abrir desde archivo Package" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="Guardar" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="Guardar como" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="Importar XML" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="Exportar a XML" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="Crear diferencia XML" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="Cerrar" />
+    <LocalizeText TextKey="MenuForum" TextValue="Herramientas" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="Convertir formatos entre XML y de Tabla" />
+    <LocalizeText TextKey="MenuOptions" TextValue="Opciones" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="Cambiar de idioma" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="Insertar Fila" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="Borrar Fila" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="Restaurar Fila" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Índice" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="ID de Instancia" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="Cadena de Texto" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="Exportación Completa" />
+    <LocalizeText TextKey="FilterXml" TextValue="Archivos XML|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="Exportar a XML" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="Importar Desde XML" />
+    <LocalizeText TextKey="FilterStbl" TextValue="Archivos STBL|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="Abrir Archivo STBL" />
+    <LocalizeText TextKey="MessageStblError" TextValue="El archivo seleccionado no es un archivo STBL válido" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="El archivo seleccionado no es un archivo Package válido" />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="El archivo seleccionado no es un archivo Sims 4 STBL" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="El archivo seleccionado no es un archivo Sims 4 Package" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="Error de lectura de Archivo" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="No se han importado datos debido a errores" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="No se encontraron datos para importar" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="{0} cadenas de texto fueron importadas pero hubo {1} errores en el archivo XML" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="{0} cadenas de texto fueron importadas" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="No se encontraron Datos en {0} para la comparación" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="{0} Registros Actualizados||{1} Registros Insertados||{2} Registros Eliminados" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="No hay Datos para convertir a Archivo XML" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="No hay Datos para convertir a Archivo de Texto" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="Seleccionar Archivo STBL para comparación" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="Archivo XML para resultados" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="Archivo STBL no Seleccionado" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="Archivo XML no Seleccionado" />
+    <LocalizeText TextKey="FilterText" TextValue="Archivos de Texto|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="Seleccionar Archivo de Texto que contenga Datos de Tabla" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="Seleccionar Archivo XML para Resultados Convertidos" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="Seleccionar Archivo de Texto para guardar resultados de Tabla" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="Seleccionar Archivo XML con Datos para ser convertido" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="No se puede convertir sin el XML requerido y los Archivos de Texto seleccionados" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="Conversión Completa" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="ID de Instancia es un campo obligatorio" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="Cadena de Texto es un campo obligatorio" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="ID de Instancia Especificado Inválido" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="Una Cadena de Texto más larga resultará en un número de Instancia más singular" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="Idioma:" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="OK" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="Cancelar" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="Este proceso comparará un archivo STBL seleccionado con los datos actuales cargados en la vista principal y producirá un archivo XML que contenga las diferencias." />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="STBL Para comparación:" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue="Guardar XML:" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="Convierte un archivo XML al formato usado en foros para mostrar Tablas, o viceversa." />
+    <LocalizeText TextKey="LabelForumExample" TextValue="Ejemplo formato de Tabla:" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="Convertir de XML a Tabla" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="Convertir de Tabla a XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="Tabla a Convertir:" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="XML a Convertir:" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="Guardar Tabla:" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="Convertir" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="Generar" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="STBL ID de Instancia:" />
+    <LocalizeText TextKey="StblListCaption" TextValue="Lista STBL" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="Idioma" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Archivos Package|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="Abrir archivo Package" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="¡No existen registros STBL en el archivo Package seleccionado!" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Aplicar diferencia XLM por lotes" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Aplicar diferencia por lotes para archivos STBL" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="Usando diferencia XML, aplica cambios a todos los archivos STBL una carpeta específica." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="Diferencia XML:" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="Ubicación de archivos STBL:" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Cambio de lote" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="Seleccionar el archivo XML con la diferencia STBL definidas." />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="Una diferencia de archivo XML y una carpeta de los archivos STBL se encuentra dentro, debe ser seleccionado antes de hacer un cambio por lotes!" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="¡{0} archivos STBL se fusionaron con la diferencia XML!" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="Usar grupo de High-bit" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Exportar a todos los idiomas" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="Las traducciones actuales han sido exportadas a los archivos STBL para cada idioma" />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Índice de idioma desconocido usado en archivo STBL: {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Algunos nombres de recursos podrían NO ser mostrados.\n\nError leyendo _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="Generación de FNV" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Introducir una cadena de texto para generar FNV Hash para(con algo más de 20 caracteres funciona mejor):" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="Buscar en cadena siguiente" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="Buscar en cadena anterior" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="Había tamaños no coincidentes entre el tamaño de las entradas STBL y el tamaño total del STBL esperado. El tamaño esperado era {0} pero el tamaño real era {1}. {2} {2} ¡Esta es sólo una advertencia! En los Sims 4 lo más probable es que no tendrá problemas con este asunto." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="Error en tamaño de entrada STBL" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Advertir sobre errores de tamaño" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+  </Spanish>
+  <French>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP STBL Editor" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="Rechercher par ID d'instance" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="Rechercher par chaîne de texte" />
+    <LocalizeText TextKey="MenuFile" TextValue="Fichier" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="Ouvrir" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="Ouvrir à partir d'un fichier Package" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="Enregistrer" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="Enregistrer sous" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="Importer XML" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="Exporter vers XML" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="Créer XML des changements" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="Quitter" />
+    <LocalizeText TextKey="MenuForum" TextValue="Outils" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="Convertir entre les formats XML et Tableau" />
+    <LocalizeText TextKey="MenuOptions" TextValue="Options" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="Définir la langue" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="Insérer une ligne" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="Supprimer une ligne" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="Restaurer une ligne" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Index" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="ID d'instance" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="Chaîne de texte" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="Exportation terminée" />
+    <LocalizeText TextKey="FilterXml" TextValue="Fichier XML|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="Exporter au format XML" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="Importer à partir d'un fichier XML" />
+    <LocalizeText TextKey="FilterStbl" TextValue="Fichier STBL|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="Ouvrir un fichier STBL" />
+    <LocalizeText TextKey="MessageStblError" TextValue="Le fichier sélectionné n'est pas un fichier STBL valide" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="Le fichier sélectionné n'est pas un fichier Package valide." />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="Le fichier sélectionné n'est pas un fichier STBL pour les Sims 4" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="Le fichier sélectionné n'est pas un fichier Package pour les Sims 4" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="Erreur de lecture de fichier" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="Erreur - Aucune donnée n'a été importée" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="Pas de données trouvées - Aucune donnée n'a été importée" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="{0} chaînes de texte ont été importées mais il y avait {1} erreurs dans le fichier XML" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="{0} chaînes de texte ont été importées" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="Aucune donnée trouvée dans {0} pour la comparaison" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="{0} chaînes de texte mises à jour||{1} chaînes de texte insérées||{2} chaînes de texte supprimées" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="Pas de données à convertir en fichier XML" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="Pas de données à convertir en fichier texte" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="Choisir le fichier STBL à comparer" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="Enregistrer sous" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="Aucun fichier STBL sélectionné" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="Aucun fichier XML sélectionné" />
+    <LocalizeText TextKey="FilterText" TextValue="Fichier texte|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="Sélectionner le fichier texte contenant le tableau à convertir" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="Enregistrer sous" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="Enregistrer sous" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="Sélectionner le fichier XML à convertir" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="Impossible de convertir sans sélectionner les fichiers XML et texte" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="Conversion terminée" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="ID d'instance est un champ obligatoire" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="La chaîne de texte est un champ obligatoire" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="ID d'instance non valide" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="Une chaîne de texte plus longue donnera un numéro d'instance plus unique" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="Langue :" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="OK" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="Annuler" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="Comparer un fichier STBL avec le fichier ouvert dans la vue principale pour produire un fichier XML contenant les changements." />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="STBL à comparer :" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue="Enregistrer sous :" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="Convertir un fichier XML en un tableau utilisable sur un forum et inversement." />
+    <LocalizeText TextKey="LabelForumExample" TextValue="Exemple de format de tableau :" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="Convertir de XML en tableau" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="Convertir de tableau en XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="Tableau à convertir :" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="XML à convertir :" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="Enregistrer sous :" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="Convertir" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="Générer" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="ID d'instance STBL :" />
+    <LocalizeText TextKey="StblListCaption" TextValue="Liste STBL" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="Langue" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Fichier Package|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="Ouvrir un fichier Package" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="Aucun fichier STBL n'existe dans le package sélectionné !" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Appliquer XML des changements par lot" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Appliquer des changements à un lot de fichiers STBL" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="Appliquer le XML des changements aux fichiers STBL du dossier sélectionné." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="XML des changements :" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="Emplacement fichiers STBL :" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Traitement par lot" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="Sélectionner le fichier XML contenant les changements" />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="Le fichier XML des changements et le dossier dans lequel les fichiers STBL sont situés doivent être sélectionnés avant d'effectuer le traitement par lot !" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="{0} fichiers STBL ont été fusionnés avec le XML des changements !" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="Use High-bit Group" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Exporter vers toutes les langues" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="Les traductions en cours ont été exportées vers un fichier STBL pour chaque langue" />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Indice de langue utilisée dans le fichier STBL Inconnu : {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Certains noms de ressource peuvent ne pas être affichés.\n\nErreur de lecture _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="Génération du FNV" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Entrez des caractères à partir desquels générer un hachage FNV (Plus de 20 caractères pour un résultat optimal)" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="Résultat suivant" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="Résultat précédent" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="There were mismatched sizes between the size of the STBL entries and the total STBL size expected.  The expected size was {0} but the actual size was {1}.{2}{2}This is just a warning!  Sims 4 will most likely not have problems from this issue." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="STBL Entry Size Error" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Warn on Size Errors" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+  </French>
+  <Polish>
+    <LocalizeText TextKey="MainFormCaption" TextValue="DP - Edytor Plików STBL" />
+    <LocalizeText TextKey="FindInstanceLabel" TextValue="ZnajdŸ wed³ug Instance ID" />
+    <LocalizeText TextKey="FindTextLabel" TextValue="ZnajdŸ wed³ug linii tekstu" />
+    <LocalizeText TextKey="MenuFile" TextValue="Plik" />
+    <LocalizeText TextKey="MenuFileOpen" TextValue="Otwórz" />
+    <LocalizeText TextKey="MenuFileOpenPackage" TextValue="Otwórz z pliku Package" />
+    <LocalizeText TextKey="MenuFileSave" TextValue="Zapisz" />
+    <LocalizeText TextKey="MenuFileSaveAs" TextValue="Zapisz jako" />
+    <LocalizeText TextKey="MenuFileImportXml" TextValue="Importuj z XML" />
+    <LocalizeText TextKey="MenuFileExportXml" TextValue="Eksportuj do XML" />
+    <LocalizeText TextKey="MenuFileCreateDiffXml" TextValue="Stwórz plik XML z ró¿nicami" />
+    <LocalizeText TextKey="MenuFileClose" TextValue="Zamknij" />
+    <LocalizeText TextKey="MenuForum" TextValue="Narzêdzia" />
+    <LocalizeText TextKey="MenuForumConvert" TextValue="Konwertuj pomiêdzy XML i STBL" />
+    <LocalizeText TextKey="MenuOptions" TextValue="Opcje" />
+    <LocalizeText TextKey="MenuOptionsLanguage" TextValue="Wybierz jêzyk" />
+    <LocalizeText TextKey="ContextInsertRow" TextValue="Wstaw liniê" />
+    <LocalizeText TextKey="ContextDeleteRow" TextValue="Usuñ liniê" />
+    <LocalizeText TextKey="ContextUndeleteRow" TextValue="Cofnij usuniêcie Linii" />
+    <LocalizeText TextKey="DataGridIndexHeader" TextValue="Indeks" />
+    <LocalizeText TextKey="DataGridInstanceIDHeader" TextValue="Instance ID" />
+    <LocalizeText TextKey="DataGridTextStringHeader" TextValue="Linia tekstu" />
+    <LocalizeText TextKey="MessageExportComplete" TextValue="Eksport zakoñczony" />
+    <LocalizeText TextKey="FilterXml" TextValue="Pliki XML|*.xml" />
+    <LocalizeText TextKey="ExportToXmlCaption" TextValue="Eksportuj do XML" />
+    <LocalizeText TextKey="ImportFromXmlCaption" TextValue="Importuj z XML" />
+    <LocalizeText TextKey="FilterStbl" TextValue="Pliki STBL|*.stbl" />
+    <LocalizeText TextKey="OpenStblCaption" TextValue="Otwórz plik STBL" />
+    <LocalizeText TextKey="MessageStblError" TextValue="Wybrany plik nie jest prawid³owym plikiem STBL" />
+    <LocalizeText TextKey="MessageDbpfError" TextValue="Wybrany plik nie jest prawid³owym plikiem Package" />
+    <LocalizeText TextKey="MessageS4StblError" TextValue="Wybrany plik nie jest plikiem STBL dla The Sims 4" />
+    <LocalizeText TextKey="MessageS4DbpfError" TextValue="Wybrany plik nie jest plikiem Package dla The Sims 4" />
+    <LocalizeText TextKey="MessageFileReadError" TextValue="B³¹d Odczytu Pliku" />
+    <LocalizeText TextKey="MessageNoDataImportError" TextValue="Nie zaimportowano danych z powodu b³êdów" />
+    <LocalizeText TextKey="MessageEmptyImportError" TextValue="Nie znaleziono danych do importu" />
+    <LocalizeText TextKey="MessageImportWithError" TextValue="Zaimportowano {0} liniê/linii tekstu, ale znaleziono {1} b³¹d/b³êdów w pliku XML" />
+    <LocalizeText TextKey="MessageImportSuccess" TextValue="Zaimportowano {0} liniê/linii tekstu" />
+    <LocalizeText TextKey="MessageCompareEmptyError" TextValue="Nie znaleziono danych do porównania w {0}" />
+    <LocalizeText TextKey="MessageCompareSuccess" TextValue="{0} rekordów zaktualizowano||{1} rekordów wstawiono||{2} rekordów usuniêto" />
+    <LocalizeText TextKey="MessageConvertXmlEmptyError" TextValue="Brak danych do konwersji w pliku XML" />
+    <LocalizeText TextKey="MessageConvertTxtEmptyError" TextValue="Brak danych do konwersji w pliku tekstowym" />
+    <LocalizeText TextKey="CompareSbtlCaption" TextValue="Wybierz plik STBL do porównania" />
+    <LocalizeText TextKey="CompareXmlResultsCaption" TextValue="Plik XML z wynikiem" />
+    <LocalizeText TextKey="MessageRequiredStblError" TextValue="Nie zaznaczono pliku STBL" />
+    <LocalizeText TextKey="MessageRequiredXmlError" TextValue="Nie zaznaczono pliku XML" />
+    <LocalizeText TextKey="FilterText" TextValue="Pliki tekstowe|*.txt" />
+    <LocalizeText TextKey="ConvertFromTextCaption" TextValue="Wybierz plik tekstowy zawieraj¹cy dane w tabelach" />
+    <LocalizeText TextKey="ConvertToXmlCaption" TextValue="Wybierz plik XML dla wyniku konwersji" />
+    <LocalizeText TextKey="ConvertToTextCaption" TextValue="Wybierz plik tekstowy do zapisania wyników w tabelach" />
+    <LocalizeText TextKey="ConvertFromXmlCaption" TextValue="Wybierz plik XML z danymi do konwersji" />
+    <LocalizeText TextKey="ConvertRequiredError" TextValue="Brak mo¿liwoœci konwersji bez zaznaczenia wymaganych plików XML i STBL" />
+    <LocalizeText TextKey="ConvertSuccess" TextValue="Konwersja Zakoñczona" />
+    <LocalizeText TextKey="InsertRequiredIdError" TextValue="Instance ID jest wymaganym polem" />
+    <LocalizeText TextKey="InsertRequiredTextError" TextValue="Linia tekstu jest wymaganym polem" />
+    <LocalizeText TextKey="MessageInvalidIdError" TextValue="Wprowadzono nieprawid³owe Instance ID" />
+    <LocalizeText TextKey="MessageFnvStringLength" TextValue="D³u¿szy tekst bêdzie skutkowa³ bardziej unikalnym numerem Instance" />
+    <LocalizeText TextKey="LabelLanguageText" TextValue="Jêzyk:" />
+    <LocalizeText TextKey="ButtonOkText" TextValue="OK" />
+    <LocalizeText TextKey="ButtonCancelText" TextValue="Anuluj" />
+    <LocalizeText TextKey="LabelConvertDescription" TextValue="Ten proces porówna zaznaczony plik STBL z obecnie wczytanymi danymi w g³ównym widoku, a nastêpnie generuje plik XML zawieraj¹cy ró¿nice." />
+    <LocalizeText TextKey="LabelConvertFromStbl" TextValue="Plik STBL do porównania:" />
+    <LocalizeText TextKey="LabelConvertToXml" TextValue=" Plik XML w którym zostanie zapisany wynik:" />
+    <LocalizeText TextKey="LabelForumDescription" TextValue="Konweruj plik XML do formatu u¿ywanego przez forum do wyœwietlania Tabel, lub odwrotnie." />
+    <LocalizeText TextKey="LabelForumExample" TextValue="Przyk³adowy format Tabeli:" />
+    <LocalizeText TextKey="ForumRadioFromXml" TextValue="Konwertuj z XML do Tabeli" />
+    <LocalizeText TextKey="ForumRadioFromText" TextValue="Konwertuj z Tabeli do XML" />
+    <LocalizeText TextKey="LabelForumFromText" TextValue="Tabela do Konwersji:" />
+    <LocalizeText TextKey="LabelForumFromXml" TextValue="XML do Konwersji:" />
+    <LocalizeText TextKey="LabelForumToText" TextValue="Tabela do zapisania wyników:" />
+    <LocalizeText TextKey="ButtonConvertText" TextValue="Konwertuj" />
+    <LocalizeText TextKey="ButtonGenerateText" TextValue="Generuj" />
+    <LocalizeText TextKey="LabelStblInstanceID" TextValue="Instance ID dla STBL:" />
+    <LocalizeText TextKey="StblListCaption" TextValue="Lista STBL" />
+    <LocalizeText TextKey="LanguageColumnText" TextValue="Jêzyk" />
+    <LocalizeText TextKey="FilterPackage" TextValue="Pliki Package|*.package" />
+    <LocalizeText TextKey="OpenPackageCaption" TextValue="Otwórz Plik Package" />
+    <LocalizeText TextKey="NoStblInPackageError" TextValue="Brak istniej¹cych wyników STBL w wybranym pliku package!" />
+    <LocalizeText TextKey="MenuFileBatchApply" TextValue="Batch wprowadzaj¹cy XML z Ró¿nicami" />
+    <LocalizeText TextKey="BatchApplyDialogCaption" TextValue="Batch wprowadzaj¹cy róznice do plików STBL" />
+    <LocalizeText TextKey="LabelBatchChangeText" TextValue="U¿ywaj¹c pliku XML z Ró¿nicami, wprowadŸ zmiany do wszystkich plików XML w wybranym folderze." />
+    <LocalizeText TextKey="LabelDifferenceXmlNameText" TextValue="XML z Ró¿nicami:" />
+    <LocalizeText TextKey="LabelStblLocationText" TextValue="Lokalizacja plików STBL:" />
+    <LocalizeText TextKey="ButtonBatchChangeText" TextValue="Batch Zmian" />
+    <LocalizeText TextKey="SelectDifferenceXmlCaption" TextValue="Wybrany plik XML z definicjacjami ró¿nic STBL" />
+    <LocalizeText TextKey="MessageStblDifferenceError" TextValue="Plik XML z ró¿nicami oraz folder, gdzie s¹ zlokalizowane pliki STBL, musz¹ byæ wybrane przed uruchomieniem Batcha ze zmianami!" />
+    <LocalizeText TextKey="MessageDifferenceMergeText" TextValue="{0} plików STBL zosta³o po³¹czonych w pliku XML z ró¿nicami!" />
+    <LocalizeText TextKey="MenuOptionsUseHighBit" TextValue="U¿ywaj grupy wielobitowej" />
+    <LocalizeText TextKey="MenuFileExportToAll" TextValue="Eksportuj Dla Wszystkich Jêzyków" />
+    <LocalizeText TextKey="MessageExportAllOk" TextValue="Obecne t³umaczenie zosta³o wyeksportowane do plików STBL dla ka¿dego jêzyka" />
+    <LocalizeText TextKey="UnknownLanguageError" TextValue="Nierozpoznany Indeks jêzyka u¿yty w pliku STBL: {0}" />
+    <LocalizeText TextKey="ResourceLoadingError" TextValue="Kilka nazw Ÿród³owych nie mo¿e byæ wyœwietlone.\n\nB³¹d odczytu _KEY {0:X8}:{1:X8}:{2:X16}" />
+    <LocalizeText TextKey="FNVGenerateCaption" TextValue="Generowanie FNV" />
+    <LocalizeText TextKey="FNVGenerateDescText" TextValue="Wpisz tekst, z którego wygenerowany zostanie Hash FNV (Tekst zawieraj¹cy wiêcej ni¿ 20 znaków zadzia³a najlepiej):" />
+    <LocalizeText TextKey="FindTextNextTooltip" TextValue="ZnajdŸ nastêpn¹ pasuj¹c¹ liniê" />
+    <LocalizeText TextKey="FindTextPrevTooltip" TextValue="ZnajdŸ poprzedni¹ pasuj¹c¹ liniê" />
+    <LocalizeText TextKey="StblEntrySizeError" TextValue="Wyst¹pi³ b³¹d zwi¹zany z niezgodnym rozmiarem wprowazdzonego pliku STBL i ca³kowitego spodziewanego rozmiaru STBL. Spodziewany rozmiar to {0}, ale obecny rozmiar {1}.{2}{2}To tylko ostrze¿enie! Gra The Sims 4 najprawdopodobniej nie bêdzie mia³a z tym problemu." />
+    <LocalizeText TextKey="StblEntrySizeCaption" TextValue="B³¹d rozmiaru wprowadzonego pliku STBL" />
+    <LocalizeText TextKey="MenuOptionsWarnSize" TextValue="Ostrzegaj o b³êdach rozmiaru" />
+    <LocalizeText TextKey="TextEditOriginalTextHeader" TextValue="Original Text String:" />
+    <LocalizeText TextKey="ButtonCopyCopyDownText" TextValue="Copy Down" />
+    <LocalizeText TextKey="TextEditFormHeader" TextValue="Edit Text String" />
+    <LocalizeText TextKey="MenuOptionsTheme" TextValue="Set UI Colors" />
+    <LocalizeText TextKey="ThemeFormBackgroundText" TextValue="Form Background:" />
+    <LocalizeText TextKey="ThemeFormTextColorText" TextValue="Form Font Color:" />
+    <LocalizeText TextKey="ThemeGridBackgroundText" TextValue="Grid Background:" />
+    <LocalizeText TextKey="ThemeGridBorderText" TextValue="Grid Border Color:" />
+    <LocalizeText TextKey="ThemeHighlightBackgroundText" TextValue="Selected Grid Background:" />
+    <LocalizeText TextKey="ThemeHighlightTextColorText" TextValue="Selected Grid Font Color:" />
+    <LocalizeText TextKey="ThemeButtonBackgroundText" TextValue="Button Background:" />
+    <LocalizeText TextKey="ThemeButtonTextColorText" TextValue="Button Font Color:" />
+    <LocalizeText TextKey="ThemeMenuBackground" TextValue="Menu Background:" />
+    <LocalizeText TextKey="ThemeTestButtonCaption" TextValue="Test Theme" />
+    <LocalizeText TextKey="ThemeDefaultButtonCaption" TextValue="Default" />
+  </Polish>
+</Localization>
